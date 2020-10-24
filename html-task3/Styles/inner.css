@@ -1,0 +1,41 @@
+.back {
+    height: 620px;
+    width: 1240px;
+    background: black;
+}
+.top, .bottom  {
+    height: 200px;
+    width: 1200px;
+    margin-left: 20px;
+    background: chocolate;
+    clear: both;
+    
+}
+.central1 {
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    background: red;
+    float: left;
+    
+}
+.central2 {
+    height: 200px;
+    width: 300px;
+    background: green;
+    float: left;
+    
+} 
+.central3 {
+    height: 200px;
+    width: 300px;
+    background: blue;
+    float: left;
+    
+} 
+.central4 {
+    height: 200px;
+    width: 300px;
+    background: black;
+    float: left;   
+}
