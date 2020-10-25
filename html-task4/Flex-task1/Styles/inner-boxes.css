@@ -1,0 +1,37 @@
+.back {
+    box-sizing: border-box;
+    border: 10px black solid;
+    height: 620px;
+    width: 1220px;
+    display: flex;
+    flex-direction: column;
+}
+.top, .bottom  {
+    height: 200px;
+    width: 1200px;
+    background: chocolate;
+}
+.central-part {
+    display: flex;
+    flex-direction: row;
+}
+.central1 {
+    height: 200px;
+    width: 300px;
+    background: red;
+}
+.central2 {
+    height: 200px;
+    width: 300px;
+    background: green;   
+} 
+.central3 {
+    height: 200px;
+    width: 300px;
+    background: blue;   
+} 
+.central4 {
+    height: 200px;
+    width: 300px;
+    background: black; 
+}
