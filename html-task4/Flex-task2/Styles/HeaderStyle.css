@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap') ;
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 10px;
+}
+
+.top-item a {
+    font-weight: 500;
+    font-size: small;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-container {
+    background-color: rgb(133, 0, 0);
+    height: 100px;
+}
+
+.central-part {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    max-width: 1296px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+
+.options-menu {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.options_text {
+    padding-left: 7px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-logo {
+    width: 308px;
+    padding-top: 15px;
+    margin-left: 350px;
+}
+
+.logo-comment {
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 365px;
+}
+
+.lang {
+    font-weight: 500;
+    padding-top: 25px;
+    font-size: 14px;
+    margin-left: 300px;
+}
+
+.club-button button {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: rgb(196, 3, 3);
+    color: white;
+    border: 4px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 5px 14px;
+    margin-top: 21px;
+}
+
+.bottom-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px; 
+}
+
+.bottom-item a {
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
